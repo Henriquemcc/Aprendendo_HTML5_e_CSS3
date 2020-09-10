@@ -1,34 +1,41 @@
+/*Configurando a pagina como um todo para que a cor de fundo seja cinza*/
 body
 {
     background: #CCCCCC;
 }
 
+/*Configurando a largura para tags com id banner*/
 #banner
 {
     width: 100%;
 }
 
+/*Configurando o alinhamento do texto como centro para as tags de titulo*/
 h1
 {
     text-align: center;
 }
 
+/*Configurando o alinhamento do texto como centro para as tags de paragrafo.*/
 p
 {
     text-align:center;
 
 }
 
+/*Configurando o tamanho da fonte para as tags com id missao.*/
 #missao
 {
     font-size: 20px;
 }
 
+/*Configuracao de cor dos itens em italico com negrito para vermelho.*/
 em strong
 {
     color: #FF0000;
 }
 
+/*Configuracao CSS para os itens da lista.*/
 .itens
 {
     font-style: italic;
