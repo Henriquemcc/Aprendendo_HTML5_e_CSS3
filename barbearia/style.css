@@ -1,13 +1,19 @@
-/*Configurando a pagina como um todo para que a cor de fundo seja cinza*/
+
 body
 {
-    background: #CCCCCC;
+
 }
 
-/*Configurando a largura para tags com id banner*/
+/*Configurando a largura para tags com id banner.*/
 #banner
 {
     width: 100%;
+}
+
+/*Configurando a parte da pagina marcada como pricipal para que a cor de fundo seja cinza.*/
+.principal
+{
+    background: #CCCCCC;
 }
 
 /*Configurando o alinhamento do texto como centro para as tags de titulo*/
@@ -39,4 +45,16 @@ em strong
 .itens
 {
     font-style: italic;
+}
+
+/*Configurando o CSS para que as tags com a classe beneficios esteja com fundo branco.*/
+.beneficios
+{
+    background: #FFFFFF;
+}
+
+/*Configurando a tag h2 para que ela fique centralizada.*/
+#h2
+{
+    text-align: center;
 }
