@@ -14,6 +14,7 @@ body
 .principal
 {
     background: #CCCCCC;
+    padding: 30px;
 }
 
 /*Configurando o alinhamento do texto como centro para as tags de titulo*/
@@ -51,10 +52,24 @@ em strong
 .beneficios
 {
     background: #FFFFFF;
+    padding: 20px;
 }
 
 /*Configurando a tag h2 para que ela fique centralizada.*/
-#h2
+h2
 {
     text-align: center;
+}
+
+ul
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios
+{
+    width: 50%;
 }
