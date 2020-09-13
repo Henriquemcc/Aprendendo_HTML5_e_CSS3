@@ -1,4 +1,4 @@
-
+/*Configurando a pagina*/
 body
 {
 
@@ -10,6 +10,12 @@ body
     width: 100%;
 }
 
+/*Configurando a distancia do titulo principal do canto esquerdo.*/
+.titulo-principal
+{
+    padding-left: 20px;
+}
+
 /*Configurando a parte da pagina marcada como pricipal para que a cor de fundo seja cinza.*/
 .principal
 {
@@ -17,8 +23,8 @@ body
     padding: 30px;
 }
 
-/*Configurando o alinhamento do texto como centro para as tags de titulo*/
-h1
+/*Configurando o alinhamento do texto como centro para os titulos alinhados ao centro.*/
+.titulo-centralizado
 {
     text-align: center;
 }
@@ -55,12 +61,7 @@ em strong
     padding: 20px;
 }
 
-/*Configurando a tag h2 para que ela fique centralizada.*/
-h2
-{
-    text-align: center;
-}
-
+/*Configurando o estilo da lista não ordenada no CSS.*/
 ul
 {
     display: inline-block;
@@ -69,6 +70,7 @@ ul
     margin-right: 15%;
 }
 
+/*Configurando a largura da imagem dos beneficios da barbearia alura.*/
 .imagembeneficios
 {
     width: 50%;
