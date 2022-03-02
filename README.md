@@ -9,3 +9,5 @@ Este repositório contém os arquivos de código fonte das paginas web desenvolv
 Os cursos em que estas páginas web foram feitas:
 
 [HTML5 e CSS3 parte 1: A primeira página da Web](https://cursos.alura.com.br/course/html5-css3-primeiros-passos).
+
+[HTML5 e CSS3 parte 2: Posicionamento, listas e navegação](https://cursos.alura.com.br/course/html5-css3-posicionamento-listas-navegacao).
