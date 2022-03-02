@@ -1,0 +1,32 @@
+header {
+
+    /* Muda o plano de fundo para cinza */
+    background: #BBBBBB;
+}
+
+nav li {
+
+    /* Mostra os itens da lista em uma unica linha */
+    display: inline;
+
+    /* Adiciona um espacamento 0 para o topo, 0 para direita, 0 para baixo e 15 para esquerda*/
+    margin: 0 0 0 15px;
+}
+
+nav a {
+
+    /* Transforma o texto em maiusculo */
+    text-transform: uppercase;
+
+    /* Adiciona a cor preta ao texto */
+    color: #000000;
+    
+    /* Adiciona negrito */
+    font-weight: bold;
+
+    /* Adiciona tamanho de 22 pixels */
+    font-size: 22px;
+
+    /* Remove decoracao */
+    text-decoration: none;
+}
