@@ -15,7 +15,7 @@ header {
     /* Adicionando uma largura fixa de 940 pixels */
     width: 940px;
 
-    /* Adicionando um espacamento externo de 0 pixels para cima e para baixo, e calculado e maneira automatica para esquerda e para direita */
+    /* Adicionando um espacamento externo de 0 pixels para cima e para baixo, e calculado e maneira automatica para esquerda e para direita. Isto alinha a div ao centro */
     margin: 0 auto;
 
 
