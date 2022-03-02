@@ -2,6 +2,35 @@ header {
 
     /* Muda o plano de fundo para cinza */
     background: #BBBBBB;
+
+    /* Adicionando espacamento de 20 pixels para cima e para baixo, e de 0 para esquerda e direita, tudo isso em relacao a distancia do conteudo a margem do cabecalho*/
+    padding: 20px 0;
+}
+
+.caixa {
+
+    /* Adicionando posicionamento relativo */
+    position: relative;
+
+    /* Adicionando uma largura fixa de 940 pixels */
+    width: 940px;
+
+    /* Adicionando um espacamento externo de 0 pixels para cima e para baixo, e calculado e maneira automatica para esquerda e para direita */
+    margin: 0 auto;
+
+
+}
+
+nav {
+
+    /* Alterando o posicionamento para absoluto */
+    position: absolute;
+
+    /* Posiciona o nav para 110 pixels abaico da margem superior */
+    top: 110px;
+
+    /* Posiciona o nav para 0 pixels a esquerda da margem direita */
+    right: 0;
 }
 
 nav li {
