@@ -59,3 +59,58 @@ nav a {
     /* Remove decoracao */
     text-decoration: none;
 }
+
+.produtos {
+
+    /* Adiciona uma largura de 940 pixels */
+    width: 940px;
+
+    /* Adicionando espacamento de 0 pixels de cima para baixo, e um espacamento automatico para os lados esquerdo e direito */
+    margin: 0 auto;
+
+    /* Adicionando expacamento interno de 50px para cima e para baixo e, 0px para o expacamento para a esquerda e direita*/
+    padding: 50px 0;
+}
+
+.produtos li {
+
+    /* Coloca os itens da lista na mesma linha */
+    display: inline-block;
+
+    /* Centralizando o conteudo */
+    text-align: center;
+
+    /* Distribuindo os itens para que cada um tenha 30% de largura */
+    width: 30%;
+
+    /* Alinhando pela linha de cima */
+    vertical-align: top;
+
+}
+
+.produtos h2 {
+    
+    /* Altera o tamanho da fonte do titulo dos produtos */
+    font-size: 30px;
+
+    /* Adiciona negrito a fonte do titulo dos produtos */
+    font-weight: bold;
+
+}
+
+.produto-descricao {
+
+    /* Altera o tamanho da fonte da descricao do produto para 18 pixels*/
+    font-size: 18px;
+    
+}
+
+.produto-preco {
+
+    /* Altera o tamanho da fonte do preco dos produtos */
+    font-size: 22px;
+
+    /* Adicionando negrito a fonte do preco dos produtos */
+    font-weight: bold;
+
+}
